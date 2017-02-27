@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A438D4636B878BFA4943240 /* Pods_TRZXPersonalJumpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF94D0AAC2F3CE998DA0894 /* Pods_TRZXPersonalJumpUITests.framework */; };
 		B70E98B31E6403B500FA3145 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B70E98B21E6403B500FA3145 /* main.m */; };
 		B70E98B61E6403B500FA3145 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B70E98B51E6403B500FA3145 /* AppDelegate.m */; };
 		B70E98B91E6403B500FA3145 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70E98B81E6403B500FA3145 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		B70E98C11E6403B500FA3145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70E98BF1E6403B500FA3145 /* LaunchScreen.storyboard */; };
 		B70E98CC1E6403B600FA3145 /* TRZXPersonalJumpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B70E98CB1E6403B600FA3145 /* TRZXPersonalJumpTests.m */; };
 		B70E98D71E6403B600FA3145 /* TRZXPersonalJumpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B70E98D61E6403B600FA3145 /* TRZXPersonalJumpUITests.m */; };
+		B70E98F11E64086400FA3145 /* CTMediator+TRZXPersonalHome.m in Sources */ = {isa = PBXBuildFile; fileRef = B70E98F01E64086400FA3145 /* CTMediator+TRZXPersonalHome.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7CF94D0AAC2F3CE998DA0894 /* Pods_TRZXPersonalJumpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRZXPersonalJumpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A096CDFEB4081E216EA68EA3 /* Pods-TRZXPersonalJumpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXPersonalJumpUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXPersonalJumpUITests/Pods-TRZXPersonalJumpUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B70E98AE1E6403B500FA3145 /* TRZXPersonalJump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXPersonalJump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70E98B21E6403B500FA3145 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B70E98B41E6403B500FA3145 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,9 @@
 		B70E98D21E6403B600FA3145 /* TRZXPersonalJumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXPersonalJumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B70E98D61E6403B600FA3145 /* TRZXPersonalJumpUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXPersonalJumpUITests.m; sourceTree = "<group>"; };
 		B70E98D81E6403B600FA3145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B70E98EF1E64086400FA3145 /* CTMediator+TRZXPersonalHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TRZXPersonalHome.h"; sourceTree = "<group>"; };
+		B70E98F01E64086400FA3145 /* CTMediator+TRZXPersonalHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TRZXPersonalHome.m"; sourceTree = "<group>"; };
+		CE1E18F46DEBF55B98EFB49E /* Pods-TRZXPersonalJumpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXPersonalJumpUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXPersonalJumpUITests/Pods-TRZXPersonalJumpUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +79,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A438D4636B878BFA4943240 /* Pods_TRZXPersonalJumpUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B10ED4111BE91A2FE3D94B56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CF94D0AAC2F3CE998DA0894 /* Pods_TRZXPersonalJumpUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B70E98A51E6403B500FA3145 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +101,8 @@
 				B70E98CA1E6403B600FA3145 /* TRZXPersonalJumpTests */,
 				B70E98D51E6403B600FA3145 /* TRZXPersonalJumpUITests */,
 				B70E98AF1E6403B500FA3145 /* Products */,
+				E4B1E7E8C73A608215299549 /* Pods */,
+				B10ED4111BE91A2FE3D94B56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +119,7 @@
 		B70E98B01E6403B500FA3145 /* TRZXPersonalJump */ = {
 			isa = PBXGroup;
 			children = (
+				B70E98E41E6403C600FA3145 /* TRZXPersonalJump */,
 				B70E98B41E6403B500FA3145 /* AppDelegate.h */,
 				B70E98B51E6403B500FA3145 /* AppDelegate.m */,
 				B70E98B71E6403B500FA3145 /* ViewController.h */,
@@ -138,6 +157,24 @@
 				B70E98D81E6403B600FA3145 /* Info.plist */,
 			);
 			path = TRZXPersonalJumpUITests;
+			sourceTree = "<group>";
+		};
+		B70E98E41E6403C600FA3145 /* TRZXPersonalJump */ = {
+			isa = PBXGroup;
+			children = (
+				B70E98EF1E64086400FA3145 /* CTMediator+TRZXPersonalHome.h */,
+				B70E98F01E64086400FA3145 /* CTMediator+TRZXPersonalHome.m */,
+			);
+			path = TRZXPersonalJump;
+			sourceTree = "<group>";
+		};
+		E4B1E7E8C73A608215299549 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE1E18F46DEBF55B98EFB49E /* Pods-TRZXPersonalJumpUITests.debug.xcconfig */,
+				A096CDFEB4081E216EA68EA3 /* Pods-TRZXPersonalJumpUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B70E98E11E6403B600FA3145 /* Build configuration list for PBXNativeTarget "TRZXPersonalJumpUITests" */;
 			buildPhases = (
+				DBDFDFE57C68EE843F0151DB /* [CP] Check Pods Manifest.lock */,
 				B70E98CE1E6403B600FA3145 /* Sources */,
 				B70E98CF1E6403B600FA3145 /* Frameworks */,
 				B70E98D01E6403B600FA3145 /* Resources */,
+				578A885956FB27CC7E8EB795 /* [CP] Embed Pods Frameworks */,
+				BFA6F63BF7AB9034FE680165 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,12 +308,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		578A885956FB27CC7E8EB795 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXPersonalJumpUITests/Pods-TRZXPersonalJumpUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFA6F63BF7AB9034FE680165 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXPersonalJumpUITests/Pods-TRZXPersonalJumpUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBDFDFE57C68EE843F0151DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B70E98AA1E6403B500FA3145 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B70E98B91E6403B500FA3145 /* ViewController.m in Sources */,
+				B70E98F11E64086400FA3145 /* CTMediator+TRZXPersonalHome.m in Sources */,
 				B70E98B61E6403B500FA3145 /* AppDelegate.m in Sources */,
 				B70E98B31E6403B500FA3145 /* main.m in Sources */,
 			);
@@ -468,6 +557,7 @@
 		};
 		B70E98E21E6403B600FA3145 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE1E18F46DEBF55B98EFB49E /* Pods-TRZXPersonalJumpUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TRZXPersonalJumpUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +569,7 @@
 		};
 		B70E98E31E6403B600FA3145 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A096CDFEB4081E216EA68EA3 /* Pods-TRZXPersonalJumpUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TRZXPersonalJumpUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -507,6 +598,7 @@
 				B70E98DD1E6403B600FA3145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B70E98DE1E6403B600FA3145 /* Build configuration list for PBXNativeTarget "TRZXPersonalJumpTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +607,7 @@
 				B70E98E01E6403B600FA3145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B70E98E11E6403B600FA3145 /* Build configuration list for PBXNativeTarget "TRZXPersonalJumpUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +616,7 @@
 				B70E98E31E6403B600FA3145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

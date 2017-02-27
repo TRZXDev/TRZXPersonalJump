@@ -1,0 +1,6 @@
+framework module Pods_TRZXPersonalJumpUITests {
+  umbrella header "Pods-TRZXPersonalJumpUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
