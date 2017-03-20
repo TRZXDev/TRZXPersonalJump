@@ -14,8 +14,34 @@
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
     params[@"otherStr"] = otherStr;
     params[@"midStrr"] = midStrr;
-    return [self performTarget:@"TRZXPersonalHome" action:@"PersonalHomeViewController" params:params shouldCacheTarget:NO];
+    UIViewController *viewController = [self performTarget:@"TRZXPersonalHome"
+                                                    action:@"PersonalHomeViewController"
+                                                    params:params
+                                         shouldCacheTarget:NO
+                                        ];
+    if ([viewController isKindOfClass:[UIViewController class]]) {
+        // view controller 交付出去之后，可以由外界选择是push还是present
+        return viewController;
+    } else {
+        // 这里处理异常场景，具体如何处理取决于产品
+        return [[UIViewController alloc] init];
+    }
 }
 
+- (UIViewController *)CollectionViewController{
+
+    UIViewController *viewController = [self performTarget:@"TRZXPersonalHome"
+                                                    action:@"CollectionViewController"
+                                                    params:nil
+                                         shouldCacheTarget:NO
+                                        ];
+    if ([viewController isKindOfClass:[UIViewController class]]) {
+        // view controller 交付出去之后，可以由外界选择是push还是present
+        return viewController;
+    } else {
+        // 这里处理异常场景，具体如何处理取决于产品
+        return [[UIViewController alloc] init];
+    }
+}
 
 @end

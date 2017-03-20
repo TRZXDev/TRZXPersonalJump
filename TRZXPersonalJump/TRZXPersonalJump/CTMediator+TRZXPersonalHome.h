@@ -11,4 +11,7 @@
 
 @interface CTMediator (TRZXPersonalHome)
 - (UIViewController *)personalHomeViewControllerWithOtherStr:(NSString *)otherStr midStrr:(NSString *)midStrr;
+//我的收藏
+- (UIViewController *)CollectionViewController;
+
 @end
